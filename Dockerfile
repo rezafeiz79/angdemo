@@ -13,6 +13,7 @@ RUN npm cache clean --force
 
 # Install dependencies and build the Angular app
 RUN npm install
+COPY . .
 RUN npm run build --prod
 
 ### STAGE 2: RUN ###
