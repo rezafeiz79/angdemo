@@ -1,6 +1,6 @@
 ### STAGE 1: BUILD ###
 # Use Node image for building and compiling the code
-FROM node:12.14-alpine AS build
+FROM node:20-alpine AS build
 
 # Set working directory inside the container
 WORKDIR /dist/src/app
