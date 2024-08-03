@@ -1,0 +1,5 @@
+<p class="text-3xl font-bold underline">home works!</p>
+<button class="bg-slate-400" (click)="fetchData()">Fetch Data</button>
+<div *ngIf="data">
+  <pre>{{ data | json }}</pre>
+</div>
